@@ -1,0 +1,7 @@
+Design
+    - Create an ISBN-10 number with user input of the first 9 digits
+    - The tenth digit is a checksum that is calculated using the following equation:
+    (d1*1 + d2*2 + d3*3 + d4*4 + d5*5 + d6*6 + d7*7 + d8*8 + d9*9) % 11
+
+    - if the checksum is 10 the last digit of the ISBN is X
+    - if not the last digit is the checksum

@@ -1,0 +1,22 @@
+Design
+    -Create three user inputs for the equation ax^2 + bx + c = 0
+        -inputs are a, b, and c
+
+    -Calculate the roots of the given quadratic equation using the following equations
+        R1 = (-b + sqrt(b^2 - 4*a*c))/ 2*a
+        R2 = (-b - sqrt(b^2 - 4*a*c))/ 2*a
+
+    - Use the following discriminant to determine if the number of roots
+        b^2 - 4*a*c
+            - if positive, the equation has two roots
+                - out put message: "There are two roots for the quadratic equation with these coefficients"
+                - output R1 and R2
+            - if zero, the equation has one root
+                - output message: "There is one root for the quadratic equation with these coefficients
+                - output R1
+            - if negative, the equation has no real root
+                - out put message: "There are no roots for the quadratic equation with these coefficients
+Testing
+    - Had problems with "^" when trying to square a value
+Implementation
+    - looks good
